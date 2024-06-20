@@ -144,7 +144,7 @@ class SfizzApp {
 
   _setupEditor() {
     this._editor = ace.edit("editor");
-    ace.config.set('basePath', 'https://pagecdn.io/lib/ace/1.4.12/')
+    ace.config.set('basePath', 'https://cdn.jsdelivr.net/npm/ace-builds@1.14.0/src/')
     this._editor.setKeyboardHandler("ace/keyboard/sublime");
     this._editor.commands.addCommand({
       name: 'reload',
